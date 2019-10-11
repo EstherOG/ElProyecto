@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "486292255645",
+    "firebase_url": "https://elproyecto-acda2.firebaseio.com",
+    "project_id": "elproyecto-acda2",
+    "storage_bucket": "elproyecto-acda2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486292255645:android:f339cdb84e3265d5767574",
+        "android_client_info": {
+          "package_name": "com.esther.myapllication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486292255645-uhtvrdf83cvgjqdenuq8i4eooh6dfahm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.esther.myapllication",
+            "certificate_hash": "fbac51da4362b88540eee1d3b9bd37148efbafd0"
+          }
+        },
+        {
+          "client_id": "486292255645-q9ho0p5vgfs9rq58cvkr6m4ehtjg5cs6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4fvqr82j9DjCa2toHDyxQ7MnOJUfjWd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486292255645-q9ho0p5vgfs9rq58cvkr6m4ehtjg5cs6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

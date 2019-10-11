@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ondo2"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ondo2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                android:backgroundTint="#3EFFFFFF"
+                app:srcCompat="@drawable/ser" />
+
+            <Button
+                android:id="@+id/Inicio"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="#A829B0CE"
+                android:drawableLeft="@drawable/proteger"
+                android:text="Aplicativo de fundaciones"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

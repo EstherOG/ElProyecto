@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/ondo1"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/ondo2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <Button
+                android:background="#BE41CFEC"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="22sp"
+                android:textColorLink="#222222"
+                android:textColor="#222222"
+                android:text="fundaciones"
+                android:shadowColor="#9C27B0"
+                android:drawableRight="@drawable/empresa"
+                android:drawableLeft="@android:drawable/ic_menu_revert"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/bo11"/>
+
+            <Button
+                android:background="#86FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="304dp"
+                android:textSize="20sp"
+                android:textColorLink="#222222"
+                android:textColor="#222222"
+                android:text="fundación 1"
+                android:shadowColor="#9C27B0"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/funda1"/>
+
+            <Button
+                android:background="#86FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="301dp"
+                android:textSize="20sp"
+                android:textColor="#222222"
+                android:text="fundación 2"
+                android:shadowColor="#9C27B0"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/funda2"/>
+
+            <Button
+                android:background="#86FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="301dp"
+                android:textSize="20sp"
+                android:textColor="#222222"
+                android:text="fundación 3"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/funda3"/>
+
+            <Button
+                android:background="#86FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="299dp"
+                android:textSize="20sp"
+                android:textColor="#222222"
+                android:text="fundación 4"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/funda4"/>
+
+            <Button
+                android:background="#86FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="295dp"
+                android:textSize="20sp"
+                android:textColor="#222222"
+                android:text="fundación 5"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/funda5"/>
+
+            <Button
+                android:background="#86FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="298dp"
+                android:textSize="20sp"
+                android:textColor="#222222"
+                android:text="fundación 6"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/funda6"/>
+
+            <Button
+                android:background="#86FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="298dp"
+                android:textSize="20sp"
+                android:textColor="#222222"
+                android:text="fundación 7"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/funda7"/>
+
+            <Button
+                android:background="#86FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="295dp"
+                android:textSize="20sp"
+                android:textColor="#222222"
+                android:text="fundación 8"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/fuda8"/>
+
+            <Button
+                android:background="#86FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="295dp"
+                android:textSize="20sp"
+                android:textColor="#222222"
+                android:text="fundación 9"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/funda9"/>
+
+            <Button
+                android:background="#86FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_width="295dp"
+                android:textSize="20sp"
+                android:textColor="#222222"
+                android:text="fundación 10"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/funda10"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

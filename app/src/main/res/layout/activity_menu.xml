@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ondo2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ondo2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tex1"
+                android:layout_width="437dp"
+                android:layout_height="wrap_content"
+                android:breakStrategy="high_quality"
+                android:drawableLeft="@drawable/proteger"
+                android:text="APLICATIVO DE FUNDACIONES"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/men1"
+                android:layout_width="295dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="#75FFFFFF"
+                android:drawableLeft="@drawable/filtrar"
+                android:onClick="filtro"
+                android:text="filtro"
+                android:textColor="#222222"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/men2"
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:onClick="perfil"
+                android:background="#86FFFFFF"
+                android:drawableLeft="@drawable/grupo"
+                android:text="perfil"
+                android:textColor="#222222"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/men3"
+                android:layout_width="299dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="#86FFFFFF"
+                android:drawableLeft="@drawable/empresa"
+                android:text="¿TIENES UNA FUNDACIÓN?"
+                android:textColor="#222222"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/men4"
+                android:layout_width="303dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="#86FFFFFF"
+                android:drawableLeft="@drawable/idioma"
+                android:text="IDIOMA"
+                android:textColor="#222222"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/men5"
+                android:layout_width="300dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="#86FFFFFF"
+                android:drawableLeft="@drawable/contacto"
+                android:text="CONTACTENOS"
+                android:textColor="#222222"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/men6"
+                android:layout_width="299dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="#86FFFFFF"
+                android:drawableLeft="@drawable/correo"
+                android:shadowColor="#9C27B0"
+                android:text="COMENTARIO"
+                android:textColor="#222222"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/men7"
+                android:layout_width="297dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="#86FFFFFF"
+                android:drawableLeft="@drawable/equipo"
+                android:text="TÉRMINOS Y CONDICIONES"
+                android:textColor="#222222"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/men8"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="#86FFFFFF"
+                android:drawableStart="@drawable/instagram"
+                android:drawableLeft="@drawable/instagram"
+                android:drawableEnd="@drawable/facebook"
+                android:drawableRight="@drawable/instagram"
+                android:textColor="#222222"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
